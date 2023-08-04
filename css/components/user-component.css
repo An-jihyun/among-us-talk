@@ -40,3 +40,7 @@
 .user-component__title--not-bold {
   font-weight: 400;
 }
+
+.friends-screen__channel {
+  margin-top: 25px;
+}
