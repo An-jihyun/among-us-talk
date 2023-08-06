@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat w/ Alliance - Among Us Talk</title>
+  </head>
+  <body id="chat-screen">
+    <video muted autoplay loop class="body-video">
+      <source src="./src/video/index-back-video.mp4" type="video/mp4" />
+    </video>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <spaan>getting ready</spaan>
+        <i class="fas fa-space-shuttle"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>12:34</span>
+      </div>
+      <div class="status-bar__column">
+        <span>567%</span>
+        <i class="fa-solid fa-battery-quarter"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fas fa-angle-left fa-3x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Alliance</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Monday, August 7, 2023</div>
+
+      <div class="message-row">
+        <img src="src/image/yellow.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">Yellow</span>
+          <div class="message__info">
+            <span class="message__bubble">We're alliance !</span>
+            <span class="message__time">00:00</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">^^</span>
+            <span class="message__time">00:00</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img src="src/image/black.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">Black</span>
+          <div class="message__info">
+            <span class="message__bubble">By the way, has anyone seen pink?</span>
+            <span class="message__time">00:00</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <!-- <i class="far fa-smile-wink fa-lg"></i> -->
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div class="best-size">
+      <span>Your screen is tooooo big</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/9559f47415.js" crossorigin="anonymous"></script>
+  </body>
+</html>
