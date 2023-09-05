@@ -111,7 +111,7 @@
   display: flex;
   justify-content: space-between;
   padding: 5px 25px;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   align-items: center;
   transition: transform 0.3s ease-in-out;
 }

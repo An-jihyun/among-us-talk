@@ -131,6 +131,7 @@ form {
 
   .login-form__input::placeholder {
     color: white;
+
   }
 
   .login-form div {
@@ -171,6 +172,10 @@ form {
       color:var(--green);
     }
   
+.login-form__input {
+  color: rgb(255, 255, 255);
+}
+/*위에 왜 넣었냐면 호버,포커스시 바뀐 글씨색상이 포커스헤제되면 색을 잃어서 쓴게 안보여가지고*/
   .login-form__a {
   font-size: 13px;
   }
